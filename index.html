@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOME - Hilalcommerce</title>
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Ini Mulai Header -->
+    <header>
+      <div class="container-atas">
+        <div class="nav-brand">
+          <a href="#" class="logo-a">IMME <span class="store">Store</span></a>
+        </div>
+        <div class="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">
+              <span class="nav-icon fa fa-home"></span>
+              <span class="nav-text">HOME</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="product.html" class="nav-link">
+              <span class="nav-icon fa fa-cart-shopping"></span>
+              <span class="nav-text">PRODUCT</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="category.html" class="nav-link">
+              <span class="nav-icon fa fa-box"></span>
+              <span class="nav-text">CATEGORY</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">
+              <span class="nav-icon fa fa-address-card"></span>
+              <span class="nav-text">ABOUT</span>
+            </a>
+          </li>
+        </ul>
+    </div>
+    <div class="form">
+        <a href="#">LOGIN</a>
+        <a href="#">SIGN UP</a>
+    </div>
+</div>
+    </header>
+    <!-- Ini Selesai Header -->
+
+    <!-- Ini Mulai Main -->
+    <main>
+      <!-- Product List -->
+      <div class="container">
+        <h2 class="title">Product List</h2>
+        <!-- Row / Baris -->
+        <div class="row">
+          <div class="col" onclick="buy('baju merah', 100000)">
+            <img src="assets/images/product-1.jpg" alt="" />
+            <h4>Baju Merah</h4>
+            <p>Rp. 100.000</p>
+          </div>
+          <div class="col" onclick="buy('sepatu hitam', 150000)">
+            <img src="assets/images/product-2.jpg" alt="" />
+            <h4>Sepatu Hitam</h4>
+            <p>Rp. 150.000</p>
+          </div>
+          <div class="col" onclick="buy('celana olahraga', 80000)">
+            <img src="assets/images/product-3.jpg" alt="" />
+            <h4>Celana Olahraga</h4>
+            <p>Rp. 80.000</p>
+          </div>
+          <div class="col" onclick="buy('baju kemeja', 180000)">
+            <img src="assets/images/product-4.jpg" alt="" />
+            <h4>Baju Kemeja</h4>
+            <p>Rp. 180.000</p>
+          </div>
+          <div class="col" onclick="buy('sepatu lari', 370000)">
+            <img src="assets/images/product-5.jpg" alt="" />
+            <h4>Sepatu Lari</h4>
+            <p>Rp. 370.000</p>
+          </div>
+          <div class="col" onclick="buy('baju polo', 60000)">
+            <img src="assets/images/product-6.jpg" alt="" />
+            <h4>Baju Polo</h4>
+            <p>Rp. 60.000</p>
+          </div>
+          <div class="col" onclick="buy('kaos kaki', 20000)">
+            <img src="assets/images/product-7.jpg" alt="" />
+            <h4>Kaos Kaki</h4>
+            <p>Rp. 20.000</p>
+          </div>
+          <div class="col" onclick="buy('jam tangan 1', 500000)">
+            <img src="assets/images/product-8.jpg" alt="" />
+            <h4>Jam Tangan 1</h4>
+            <p>Rp. 500.000</p>
+          </div>
+          <div class="col" onclick="buy('jam tangan 2', 450000)">
+            <img src="assets/images/product-9.jpg" alt="" />
+            <h4>Jam Tangan 2</h4>
+            <p>Rp. 450.000</p>
+          </div>
+          <div class="col" onclick="buy('sepatu hitam', 320000)">
+            <img src="assets/images/product-10.jpg" alt="" />
+            <h4>Sepatu Hitam</h4>
+            <p>Rp. 320.000</p>
+          </div>
+          <div class="col" onclick="buy('sepatu abu', 308000)">
+            <img src="assets/images/product-11.jpg" alt="" />
+            <h4>Sepatu Abu</h4>
+            <p>Rp. 308.000</p>
+          </div>
+          <div class="col" onclick="buy('celana running', 120000)">
+            <img src="assets/images/product-12.jpg" alt="" />
+            <h4>Celana Running</h4>
+            <p>Rp. 120.000</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Ini Selesai Main -->
+
+    <!-- Ini Mulai Footer -->
+    <footer>
+      <p>Copyright <span id="year"></span>. Hilalshop</p>
+    </footer>
+    <!-- Ini Selesai Footer -->
+  </body>
+  <script src="assets/source.js"></script>
+</html>
